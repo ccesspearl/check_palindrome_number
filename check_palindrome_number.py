@@ -32,3 +32,5 @@ def checking(number):
         return False 
 
 # Check the numbers and print the result 
+checking(121)
+checking(125)
