@@ -18,7 +18,12 @@ def checking(number):
 
 # Inside the function, create a variable that will reverse the given number string 
     new_number = given_number[::-1]
-    
+
 # Inside the function, use if statement to know whether the number and its reverse is palindrome 
+    if given_number == new_number:
+        print("Original number", given_number)
+        print("Yes. given number is palindrome number")
+        return True 
+    
 # Inside the function, use else statement to print whether the number and its reverse is not palindrome 
 # Check the numbers and print the result 
