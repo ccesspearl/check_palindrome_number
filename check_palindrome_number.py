@@ -26,4 +26,9 @@ def checking(number):
         return True 
     
 # Inside the function, use else statement to print whether the number and its reverse is not palindrome 
+    else:
+        print("Original number", given_number)
+        print("No. given number is not palindrome number")
+        return False 
+
 # Check the numbers and print the result 
